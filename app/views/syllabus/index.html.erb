@@ -1,17 +1,17 @@
 <div class="row">
   <div class="col-1"></div>
   <div class="col-10">
-    <table class="table">
+    <table class="table table-bordered">
       <thead>
       <tr>
-        <th>科目番号<br>科目名</th>
-        <th>単位数<br>履修年次</th>
-        <th>科目群</th>
-        <th>科目試験出題者<br>文責</th>
-        <th>スクーリング</th>
-        <th>使用教科書</th>
-        <th>授業の概要</th>
-        <th colspan="7"></th>
+        <th style="width: 10%">科目番号<br>科目名</th>
+        <th style="width: 8%">単位数<br>履修年次</th>
+        <th style="width: 10%">科目群</th>
+        <th style="width: 10%">科目試験<br>出題者<br>/文責</th>
+        <th style="width: 11%">スクーリング</th>
+        <th style="width: 12%">使用教科書</th>
+        <th style="width: 29%">授業の概要</th>
+        <th style="width: 10%" colspan="7"></th>
       </tr>
       </thead>
 
@@ -25,7 +25,7 @@
           <td><%= syllabus.schooling %></td>
           <td><%= syllabus.textbook %></td>
           <td><%= syllabus.summary %></td>
-          <td><%= link_to 'レポート課題集', syllabus %></td>
+          <td><%= link_to '詳細', syllabus %></td>
         </tr>
       <% end %>
       </tbody>
