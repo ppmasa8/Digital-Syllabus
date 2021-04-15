@@ -1,8 +1,7 @@
-class SyllabusController < ApplicationController
-  before_action :set_syllabus, only: %i[ show ]
+class SyllabusesController < ApplicationController
   def index
     @q = Syllabus.ransack(params[:q])
-    @syllabus = @q.result(distinct: true).page(params[:page])
+    @syllabuses = @q.result(distinct: true).page(params[:page])
   end
 
   def show
