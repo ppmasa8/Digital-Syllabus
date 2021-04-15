@@ -1,3 +1,5 @@
+<%= render 'layouts/search', syllabus: @syllabuses %>
+
 <div class="row">
   <div class="col-1"></div>
   <div class="col-10">
@@ -16,7 +18,7 @@
       </thead>
 
       <tbody>
-      <% @syllabus.each do |syllabus| %>
+      <% @syllabuses.each do |syllabus| %>
         <tr>
           <td><%= syllabus.subject %></td>
           <td><%= syllabus.unit_and_course_int %></td>
@@ -33,5 +35,5 @@
 
   </div>
   <div class="col-1"></div>
-  <%= paginate @syllabus %>
+  <%= paginate @syllabuses %>
 </div>
