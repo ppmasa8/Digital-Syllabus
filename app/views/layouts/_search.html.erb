@@ -1,0 +1,39 @@
+<div class="row">
+  <div class="col-1"></div>
+  <div class="col-10 mt-5 mb-5">
+    <%= search_form_for @q do |f| %>
+      <%= f.label :subject, "科目名　　　　" %>
+      <%= f.search_field :subject_cont %>
+      <br>
+      <%= f.label :unit_and_course_int, "履修年次　　　" %>
+      <%= f.radio_button 'unit_and_course_int_cont', '',{:checked => true} %>指定なし
+      <%= f.radio_button 'unit_and_course_int_cont', "1年次" %>1年次
+      <%= f.radio_button 'unit_and_course_int_cont', "2年次" %>2年次
+      <%= f.radio_button 'unit_and_course_int_cont', "3年次" %>3年次
+      <%= f.radio_button 'unit_and_course_int_cont', "4年次" %>4年次
+      <br>
+      <%= f.label :subject_type, "科目群　　　　" %>
+      <%= f.radio_button 'subject_type_cont', '',{:checked => true} %>指定なし
+      <%= f.radio_button 'subject_type_cont', "第１群" %>第１群
+      <%= f.radio_button 'subject_type_cont', "第２群" %>第２群
+      <%= f.radio_button 'subject_type_cont', "第３群" %>第３群
+      <%= f.radio_button 'subject_type_cont', "第４群" %>第４群
+      <%= f.radio_button 'subject_type_cont', "第５群" %>第５群
+      <%= f.radio_button 'subject_type_cont', "第６群" %>第６群
+      <%= f.radio_button 'subject_type_cont', "第７群" %>第７群
+      <br>
+      <%= f.label :schooling, "スクーリング　" %>
+      <%= f.radio_button 'schooling_cont', '',{:checked => true} %>指定なし
+      <%= f.radio_button 'schooling_cont', "夏季" %>夏季
+      <%= f.radio_button 'schooling_cont', "短期" %>短期
+      <%= f.radio_button 'schooling_cont', "オンライン" %>オンライン
+      <%= f.radio_button 'schooling_cont', "オンデマンド" %>オンデマンド
+      <%= f.radio_button 'schooling_cont', "導入教育" %>導入教育
+      <%= f.radio_button 'schooling_cont', "演習" %>演習
+      <br>
+      <%= f.submit "検索", class: "btn btn-primary" %>
+      <%= link_to 'クリア', syllabuses_path, class: "btn btn-secondary" %>
+    <% end %>
+  </div>
+  <div class="col-1"></div>
+</div>
