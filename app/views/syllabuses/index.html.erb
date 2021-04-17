@@ -19,7 +19,6 @@
 
       <tbody>
       <% @syllabuses.each do |syllabus| %>
-        <% @sy = syllabus %>
         <tr>
           <td><%= syllabus.subject %></td>
           <td><%= syllabus.unit_and_course_int %></td>
@@ -28,7 +27,9 @@
           <td><%= syllabus.schooling %></td>
           <td><%= syllabus.textbook %></td>
           <td><%= syllabus.summary %></td>
-          <td><%= link_to '詳細', syllabuses_path(syllabus, format: :pdf) %></td>
+          <td>
+            <a href="<%= image_url("#{syllabus.id}.pdf") %>" target="_blank">詳細</a>
+          </td>
         </tr>
       <% end %>
       </tbody>
