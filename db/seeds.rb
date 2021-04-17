@@ -15,20 +15,20 @@ Syllabus.create(subject: '法学入門〈A00A〉', unit_and_course_int: "単位�
 Syllabus.create(subject: '憲法〈A02A〉', unit_and_course_int: "単位数:4\n1年次", subject_type: '第１群', teacher: '土屋 武・橋本 基弘',
                 schooling: "オンデマンド\nオンライン", textbook: '工藤 達朗・畑尻 剛 他『憲法』[第5版]以降(不磨書房)',
                 summary: '豊かな現実感覚とともに憲法理念の正確な理解が不可欠です。日本国憲法 が保障する基本的人権の意義と統治機構の原理を具体的事案を通して検討し、憲法理念=「この国のかた ち」の正確な理解と柔軟な憲法思考を要請したいと思います。')
-Syllabus.create(subject: '民法1(総則)〈A03A〉', unit_and_course_int: "単位数:4\n1年次", subject_type: '第１群', teacher: '力丸 祥子',
+Syllabus.create(subject: '民法１(総則)〈A03A〉', unit_and_course_int: "単位数:4\n1年次", subject_type: '第１群', teacher: '力丸 祥子',
                 schooling: "オンデマンド\nオンライン", textbook: '新井 誠・岡伸 浩『民法講義録』[改訂版](日本評論社)',
                 summary: '民法総則は抽象的で分かりにくく、学習の途上で挫折してしまうことが多いといわれますが、これから 法律学を学ぶ際の基礎となる分野ですので、確実な理解を積み重ねていくことが重要です。なお、本授業では可能な限り具体例を想定しながら、興味を持って授業に臨んでいくことが求められています。そのことによって、民法総則の抽象性を少しは払拭できると思います。')
-Syllabus.create(subject: '刑法総論〈A04B〉/ 刑法1(総論)〈A04A〉', unit_and_course_int: "単位数:4\n1年次", subject_type: '第１群', teacher: '只木 誠',
+Syllabus.create(subject: '刑法総論〈A04B〉刑法1(総論)〈A04A〉', unit_and_course_int: "単位数:4\n1年次", subject_type: '第１群', teacher: '只木 誠',
                 schooling: "オンデマンド\nオンライン", textbook: '立石 二六『刑法総論』[第3版]以降(成文堂)',
                 summary: '履修者の皆さんにおいては、教科書の全体を通読し、刑法総論を俯瞰できるようになることが重要であ ろう。読みこなすことになかなか難渋する箇所もあるかと思われるが、何度か回を重ねて全体を通して読 んでいくうちに、刑法の体系についての全体的な理解が増し、着実に身についていくはずである。授業で の学習とこのような自己学習を通して、最終的には、判例・学説の背後にある刑法の役割についての基本 的な考え方の相違についても知り、併せて、紛争解決手段としての刑法の役割とその限界、解釈の限界、 立法論などを考えていただけるようになること、あるいは、刑法上の論点をさぐり、これをどのように解 決すべきかを考える、いわゆるリーガルマインドの涵養に役立たせていただくことが本授業の目的である。
 ')
-Syllabus.create(subject: '民法2(物権)〈A05A〉', unit_and_course_int: "単位数:4\n2年次", subject_type: '第１群', teacher: '遠藤 研一郎',
+Syllabus.create(subject: '民法２(物権)〈A05A〉', unit_and_course_int: "単位数:4\n2年次", subject_type: '第１群', teacher: '遠藤 研一郎',
                 schooling: "オンデマンド\nオンライン", textbook: '淡路 剛久・鎌田 薫 他『民法II-物権』[第4版]以降(有斐閣)',
                 summary: '物権法は、形式的には、民法第2編物権(175 条~ 398 条の 22)を意味する。物に対する独占的な支 配権という(債権と比較した場合における)権利の性質を有するが、より具体的には、所有権を中心に、 用益物権(地上権、永小作権、地役権、入会権)、担保物権(留置権、先取特権、質権、抵当権)、占有権 が法定されている。本授業では、(1)物権法の総則としての物権変動を学ぶとともに、(2)各則として 以上の 10 個の物権の基礎的な知識の定着を目指す。')
-Syllabus.create(subject: '民法3(債権総論)〈A06A〉', unit_and_course_int: "単位数:4\n2年次", subject_type: '第１群', teacher: '髙田 淳',
+Syllabus.create(subject: '民法３(債権総論)〈A06A〉', unit_and_course_int: "単位数:4\n2年次", subject_type: '第１群', teacher: '髙田 淳',
                 schooling: "オンデマンド\nオンライン", textbook: '野村 豊弘・栗田 哲男 他『民法III-債権総論』[第4版]以降(有斐閣)',
                 summary: '当該分野の法制度に関する基本的な知識の修得と、その知識を運用して具体的な問題に取り組み、妥当 な解決策を導き出す能力を養うことを目標とする。')
-Syllabus.create(subject: '刑法各論〈A07B〉/ 刑法2(各論)〈A07A〉', unit_and_course_int: "単位数:4\n2年次", subject_type: '第１群', teacher: '安井 哲章',
+Syllabus.create(subject: '刑法２(各論)〈A07A〉刑法各論〈A07B〉', unit_and_course_int: "単位数:4\n2年次", subject_type: '第１群', teacher: '安井 哲章',
                 schooling: "オンデマンド\nオンライン", textbook: '高橋 則夫『刑法各論』[第3版]以降(成文堂)',
                 summary: '個人法益、社会法益、国家法益に対する罪の検討を行います。条文の文言を確認するだけでなく、判例 についても丁寧に分析を行うことが必要です。特に、窃盗罪などの財産罪については、多くの事案に触れ ることが必要です。')
 Syllabus.create(subject: '商法(会社法)〈A08A〉', unit_and_course_int: "単位数:4\n3年次", subject_type: '第１群', teacher: '三浦 治',
@@ -42,10 +42,10 @@ Syllabus.create(subject: '民事訴訟法〈A10A〉', unit_and_course_int: "単�
                 summary: '民事訴訟がどのようなルール(手続)の下で行われ、そこにはどのような法律問題が存在するのかにつ いて学んでいきます。')
 
 # 第２群
-Syllabus.create(subject: '民法5(親族・相続)〈B01A〉', unit_and_course_int: "単位数:4\n2年次", subject_type: '第１群', teacher: '宮本 ともみ',
+Syllabus.create(subject: '民法５(親族・相続)〈B01A〉', unit_and_course_int: "単位数:4\n2年次", subject_type: '第１群', teacher: '宮本 ともみ',
                 schooling: "オンデマンド\nオンライン", textbook: '二宮 周平『新法学ライブラリ-9 家族法』[第5版]以降(新世社)',
                 summary: '民法5では、民法典第 4 編親族と第 5 編相続が学習の対象となる。親族法と相続法それぞれの制度が どのように構成されているのか、それらの制度をめぐってどのような問題が起こっているのかを把握する ことが本授業の第一の目的である。')
-Syllabus.create(subject: '外国法概論1〈B02A〉', unit_and_course_int: "単位数:4\n2年次", subject_type: '第２群', teacher: '北井 辰弥',
+Syllabus.create(subject: '外国法概論１〈B02A〉', unit_and_course_int: "単位数:4\n2年次", subject_type: '第２群', teacher: '北井 辰弥',
                 schooling: "オンデマンド\nオンライン\n夏季スクーリング", textbook: '戒能 通弘・竹村 和也『イギリス法入門-歴史、社会、法思想から見る』 [初版]以降(法律文化社)',
                 summary: 'イギリス法は、ローマ法の継受を経験したヨーロッパ法や明治維新を経験した日本法と異なり大きな断 絶を経験することなく歴史的に発展してきた。この授業は、このような歴史的な背景を前提としながら、 現代イギリス法の基本原則を理解することを目標とする。
 ')
@@ -55,7 +55,7 @@ Syllabus.create(subject: '日本法制史〈B05A〉', unit_and_course_int: "単�
 Syllabus.create(subject: '西洋法制史〈B06A〉', unit_and_course_int: "単位数:4\n2年次", subject_type: '第２群', teacher: '森 光',
                 schooling: "オンデマンド\nオンライン", textbook: '津野 義堂『法知の科学 2020』[初版](津野文庫)',
                 summary: '西洋における法学という学問の起点はローマ法である。古代ローマにあって、法学の方法論や、法学上 の諸概念が形成された。この授業では、古代ローマ法において形成されたこうした方法論や諸概念をまず はおさえた上で、それがいかに変化していくかをみていくことにする。')
-Syllabus.create(subject: '民法4(債権各論)〈B07A〉', unit_and_course_int: "単位数:4\n3年次,4年次", subject_type: '第２群', teacher: 'デルナウア,マーク',
+Syllabus.create(subject: '民法４(債権各論)〈B07A〉', unit_and_course_int: "単位数:4\n3年次,4年次", subject_type: '第２群', teacher: 'デルナウア,マーク',
                 schooling: "オンデマンド\nオンライン", textbook: '新井 誠・岡 伸浩『民法講義録』[改訂版](日本評論社)',
                 summary: '民法4(債権各論)では、民法財産法のうち、いわゆる債権各論に関する基本を学びます。')
 Syllabus.create(subject: '商法(総論・総則)〈B08A〉', unit_and_course_int: "単位数:4\n3年次,4年次", subject_type: '第２群', teacher: '平泉 貴士',
@@ -77,16 +77,16 @@ Syllabus.create(subject: '経済法〈B13A〉', unit_and_course_int: "単位数:
                 schooling: "オンデマンド\nオンライン", textbook: '鈴木 孝之・河谷 清文『事例で学ぶ独占禁止法』[初版]以降(有斐閣)',
                 summary: '独占禁止法を中心として経済法の基本を理解することを目的とする。  基本的な考え方と実際の運用を把握し、自分の頭で考え応用できるようになることを到達目標とする。
 「カルテルや入札談合は独占禁止法に書いてあるから禁止されている」というのではなく、なぜカルテル や談合が行なわれるのか、行なわれるとどのような効果が生じるのか、法的にそれを規制すべきか、どう やって規制すべきか、といったことについて考えた上で理解できるようになってほしい。')
-Syllabus.create(subject: '倒産処理法〈B14B〉/ 破産法〈B14A〉', unit_and_course_int: "単位数:4\n3年次,4年次", subject_type: '第２群', teacher: '木川 裕一郎',
+Syllabus.create(subject: '倒産処理法〈B14B〉破産法〈B14A〉', unit_and_course_int: "単位数:4\n3年次,4年次", subject_type: '第２群', teacher: '木川 裕一郎',
                 schooling: "オンデマンド\nオンライン", textbook: '加藤 哲夫『法律学講義シリーズ 破産法』[第 6 版]以降(弘文堂)',
                 summary: '倒産処理法の学習を通じて、実体法(民法・会社法・手形法など)の知識を確実なものとすることに目 標を置く')
 Syllabus.create(subject: '民事執行・保全法〈B15A〉', unit_and_course_int: "単位数:4\n3年次,4年次", subject_type: '第２群', teacher: '木川 裕一郎',
                 schooling: "オンデマンド\nオンライン", textbook: '中野 貞一郎『民事執行・保全入門』[補訂版]以降(有斐閣)',
                 summary: '民事執行・保全法の学習を通じて、実体法(民法・手形法など)の知識を確実なものとすることに目標 を置く。')
-Syllabus.create(subject: '労働法(集団的労働法)〈B16B〉/労働法1(団体法)〈B16A〉', unit_and_course_int: "単位数:4\n3年次,4年次", subject_type: '第２群', teacher: '米津 孝司',
+Syllabus.create(subject: '労働法1(団体法)〈B16A〉労働法(集団的労働法)〈B16B〉', unit_and_course_int: "単位数:4\n3年次,4年次", subject_type: '第２群', teacher: '米津 孝司',
                 schooling: "オンデマンド\nオンライン\n短期スクーリング", textbook: '西谷 敏『労働法』[第 3 版]以降(日本評論社)',
                 summary: '本科目の履修によって、履修者が、集団的労働関係に関する法制度について基本的な知識を習得し、集 団的労働関係紛争の解決の方法を整理し、理解できることが到達目標である。')
-Syllabus.create(subject: '労働法(個別的労働法)〈B17B〉/ 労働法2(保護法)〈B17A〉', unit_and_course_int: "単位数:4\n3年次,4年次", subject_type: '第２群', teacher: '川田 知子',
+Syllabus.create(subject: '労働法2(保護法)〈B17A〉労働法(個別的労働法)〈B17B〉', unit_and_course_int: "単位数:4\n3年次,4年次", subject_type: '第２群', teacher: '川田 知子',
                 schooling: "オンデマンド\nオンライン", textbook: '川田 知子・長谷川 聡『労働法』[初版]以降(弘文堂)',
                 summary: '本科目では、この個別的労働関係において定立されている法的ルールを、雇用関係の成立、展開、終了 の各段階に即して、論じる。')
 Syllabus.create(subject: '行政法1〈B18A〉', unit_and_course_int: "単位数:4\n3年次,4年次", subject_type: '第２群', teacher: '亘理 格・牛嶋 仁',
@@ -104,7 +104,7 @@ Syllabus.create(subject: '国際法〈B21A〉', unit_and_course_int: "単位数:
 Syllabus.create(subject: '国際私法〈B22A〉', unit_and_course_int: "単位数:4\n3年次,4年次", subject_type: '第２群', teacher: '佐藤 文彦',
                 schooling: "オンデマンド\nオンライン", textbook: '山内 惟介『国際私法』(中央大学通信教育部)',
                 summary: '現在、世界中で、実に多様な渉外事件が生起している。こうした渉外事件を解決するための、理論的な 枠組を把握し、解決できるようになるための、基本的な理解を身につけてもらうことが、この授業の目的 である。')
-Syllabus.create(subject: '外国法研究1〈B23A〉', unit_and_course_int: "単位数:2\n3年次,4年次", subject_type: '第２群', teacher: '佐藤 信行',
+Syllabus.create(subject: '外国法研究１〈B23A〉', unit_and_course_int: "単位数:2\n3年次,4年次", subject_type: '第２群', teacher: '佐藤 信行',
                 schooling: "オンデマンド\nオンライン", textbook: '伊藤 正己・木下 毅『アメリカ法入門』[第 5 版]以降(日本評論社)',
                 summary: '「外国法研究1」は、英米法入門科目でありイギリス法を主対象とする「外国法概論1」の発展科目と して位置づけられるもので、イギリスの法伝統を踏襲しながら独自の発展を遂げてきたアメリカ法を対象 とします')
 Syllabus.create(subject: '法哲学〈B26A〉', unit_and_course_int: "単位数:4\n3年次,4年次", subject_type: '第２群', teacher: '石山 文彦',

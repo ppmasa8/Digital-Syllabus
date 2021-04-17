@@ -1,9 +1,9 @@
 <%= render 'layouts/search', syllabus: @syllabuses %>
 
 <div class="row">
-  <div class="col-1"></div>
-  <div class="col-10">
-    <table class="table table-bordered">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+    <table class="table table-bordered table-striped">
       <thead>
       <tr>
         <th style="width: 10%">科目番号<br>科目名</th>
@@ -27,13 +27,19 @@
           <td><%= syllabus.schooling %></td>
           <td><%= syllabus.textbook %></td>
           <td><%= syllabus.summary %></td>
-          <td><%= link_to '詳細', syllabus %></td>
+          <td>
+            <a href="<%= image_url("#{syllabus.id}.pdf") %>" target="_blank">詳細</a>
+          </td>
         </tr>
       <% end %>
       </tbody>
     </table>
+    <br>
+    <div class="mt-2 mb-4">
+      <%= paginate @syllabuses %>
+    </div>
 
   </div>
-  <div class="col-1"></div>
-  <%= paginate @syllabuses %>
+  <div class="col-md-1"></div>
 </div>
+
