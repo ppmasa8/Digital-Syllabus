@@ -5,9 +5,19 @@ class SyllabusesController < ApplicationController
   end
 
   def show
+    respond_to do |format|
+      format.pdf do
+        send_file('/public', filename: filename, disposition: 'inline')
+      end
+    end
   end
 
   private
+
+  def filename
+    # pdfのファイル名を指定
+    "#{@sy.subject}.pdf"
+  end
 
   def set_game
     @syllabus = Syllabus.find(params[:id])
