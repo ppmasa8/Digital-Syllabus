@@ -22,3 +22,6 @@
 * byebug
 * pry-rails
 * rspec-rails
+
+## 本番環境
+* aws EC2
