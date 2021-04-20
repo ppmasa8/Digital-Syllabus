@@ -23,5 +23,5 @@
 * pry-rails
 * rspec-rails
 
-## 本番環境
+## 本番環境（未実装）
 * aws EC2
